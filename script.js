@@ -5,7 +5,7 @@ if (localStorage.fav != undefined) {
   afficherFavoris();
 }
 function cherche() {
-  let url = 'http://www.omdbapi.com/?apikey=8d684aed&s=';
+  let url = 'https://www.omdbapi.com/?apikey=8d684aed&s=';
   let film = document.querySelector('#film').value;
   document.querySelector('#film').value = '';
   let url2 = url + film;
